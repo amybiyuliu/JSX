@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function getButtonText() {
-  return 'Click on ME'
+  return 'Click on me';
 }
 
 // Create a react component
@@ -12,7 +12,7 @@ const App = () => { // ES2015
   
   return(
     <div>
-      <label className='label' for='name'>Enter name: </label>
+      <label className='label' htmlFor='name'>Enter name: </label>
       <input id='name' type='text'/>
       <button style={{backgroundColor: 'blue', color: 'white'}}> {getButtonText()}</button>
     </div>
