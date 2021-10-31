@@ -24,3 +24,8 @@
 ### Class vs Classname
   we are not supposed to use a class inside of a jsx element -> use classname
 
+### Referencing JS vars in JSX
+  user {} to reference const or function
+
+### Values JSX cant show
+  we are not allowed to take a Javascript object and reference it inside of JSX specifically where we would show text
