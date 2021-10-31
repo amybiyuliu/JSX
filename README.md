@@ -21,5 +21,6 @@
   outer { indicates that we want to reference a Javascript variable inside jsx
 
   second { indicates a javascript object
-
+### Class vs Classname
+  we are not supposed to use a class inside of a jsx element -> use classname
 
